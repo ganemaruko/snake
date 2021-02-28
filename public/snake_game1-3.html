@@ -29,11 +29,24 @@
         height: 90vmin;
         border-style: solid;
     }
+
+    /* 1-2で記述したいろいろ */
+
+    .snake {
+        /* ヘビを好きな色にしましょう */
+        background-color: seagreen;
+        /* ヘビを適当な大きさにしましょう(vmin基準が見通しがいいです) */
+        width: 10vmin;
+        height: 10vmin;
+    }
 </style>
 
 <body>
     <div id="board-outer">
-        <div id="board"></div>
+        <div id="board">
+            <!-- ヘビとなるdivを追加 -->
+            <div class="snake"></div>
+        </div>
     </div>
 </body>
 
